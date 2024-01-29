@@ -17,11 +17,11 @@
     <!-- Nav: Inicio -->
     <nav>
       <ul>
-        <li><a href="#secciondatos">Datos Personales</a></li>
-        <li><a href="#seccionredes">Redes Sociales</a></li>
-        <li><a href="#seccionhabilidades">Habilidades</a></li>
-        <li><a href="#secciongaleria">Galería</a></li>
-        <li><a href="#seccioncontactenos">Contáctenos</a></li>
+        <li><a id="#secciondatos" href="datos">Datos Personales</a></li>
+        <li><a href="#seccionredes" id="redes">Redes Sociales</a></li>
+        <li><a href="#seccionhabilidades" id="#habilidades">Habilidades</a></li>
+        <li><a href="#secciongaleria" id="galeria">Galería</a></li>
+        <li><a href="#seccioncontactenos" id="contactenos">Contáctenos</a></li>
       </ul>
     </nav>
     <!-- Nav: Fin -->
@@ -100,18 +100,12 @@
 
     </aside>
 
-    <section id="seccioncontactenos">
-      <footer><address>
-        Email: <a href="mailto:CORREO">CORREO</a><br>
-        Tel: <a href="tel:+TELEFONO">TELEFONO</a><br><br>
-        DIRECCIÓN: <a href="Direccion">DIRECCION</a><br>
-        CIUDAD <a href="Guayaquil">Guayaquil</a><br>
-        PAÍS <a href="Ecuador">Ecuador</a><br>
-      </address></footer>
-      <h2>Contáctame</h2>
-      <h3>Sus datos</h3>
+    
+    <section id="seccioncontactenos" class="seccion">
+      <h2 id="contactame" >Contáctame</h2> 
+      <h3 id="susdatos" >Sus datos</h3>
 
-      <form>
+      <form id="formulario">
         <label for="nombre">Nombres:</label><input type="text" name="nombre"
           id="nombre">
         <label for="nombre">Apellidos:</label><input type="text"
@@ -137,15 +131,25 @@
         <button type="submit">Enviar</button>
       </form>
 
-
-      <h3>Ubicación</h3>
-      <div>
+      <h3 id="ubicacion">Ubicación</h3>
+      <div id="mapa">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.9191374720845!2d-79.98443612430448!3d-2.1843648372686495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d73e230eb0409%3A0xab71c929d304d59b!2sBelo%20Horizonte!5e0!3m2!1sen!2sec!4v1706044786292!5m2!1sen!2sec" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-
     </section>
-
+      <footer>
+        <address>
+          Email: <a href="mailto:CORREO">CORREO</a>
+          Tel: <a href="tel:+TELEFONO">TELEFONO</a>
+          DIRECCIÓN: <a href="Direccion">DIRECCION</a>
+          CIUDAD <a href="Guayaquil">Guayaquil</a>
+          PAÍS <a href="Ecuador">Ecuador</a>
+      </address>
+      </footer>
     
+
+
+      
 
   </body>
 </html>
+
