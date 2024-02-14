@@ -50,23 +50,23 @@ class='seccion'{
 .seccion {
     background-color: white;
     padding: 2%;
-    margin-top: 2% !important;
-    margin-bottom: 2% !important;
+    margin-top: 4% !important;
+    margin-bottom: 4% !important;
     box-shadow: 0 1px 6px rgb(0, 0, 0/ 12%), 0 1px 4px rgb(0, 0, 0/ 12%)
 }
 section h2 {
-    color: #0BCC7B;
+    color: #636ceb;
 }
 section a {
-    text-decoration: none;
+    text-decoration: #373B41;
 }
-sector nav ul {
+nav ul {
     list-style-type: none;
 }
 #secciondatos p {
-    font-size: 1.4rem;
+    font-size: 2.0 rem;
     margin-top: 6%;
-    color: #373B41;
+    color: #cc5adb;
 }
 
 #seccioncontactenos {
@@ -96,3 +96,40 @@ sector nav ul {
     grid-area: area5;
 }
 
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#email {
+    display: flex;
+    flex-direction: column;
+}
+#telefono {
+    display: flex;
+    flex-direction: row;
+}
+#direccion {
+    display: flex;
+    flex-direction: row;
+}
+#ciudad {
+    display: flex;
+    flex-direction: row;
+}
+#pais {
+    display: flex;
+    flex-direction: row;
+}
+#o25 {
+    display: flex;
+    flex-direction: column;
+}
+#o26y30 {
+    display: flex;
+    flex-direction: column;
+}
+#o31 {
+    display: flex;
+    flex-direction: column;
+}
