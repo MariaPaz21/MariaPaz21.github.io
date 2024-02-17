@@ -66,7 +66,7 @@ nav ul {
 #secciondatos p {
     font-size: 2.0 rem;
     margin-top: 6%;
-    color: #cc5adb;
+    color: #bf1fe7;
 }
 
 #seccioncontactenos {
@@ -103,7 +103,7 @@ nav ul {
 
 #email {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 #telefono {
     display: flex;
@@ -123,13 +123,13 @@ nav ul {
 }
 #o25 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 #o26y30 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 #o31 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
